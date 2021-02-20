@@ -1,0 +1,57 @@
+@import url("reset.css");
+@import url("content.css");
+
+@font-face {
+  font-family: "YESMyoungjo-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/YESMyoungjo-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SDKukdetopokki-Lt";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/SDKukdetopokki-aLt00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.header--wrapper i {
+  margin-right: 0.8rem;
+}
+
+.header--wrapper {
+  font-weight: 700;
+}
+
+.content {
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
