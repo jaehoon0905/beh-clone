@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+@import url("reset.css");
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.header--wrapper img {
+  height: 1rem;
+}
+
+.header--wrapper i {
+  margin-right: 0.8rem;
+}
+
+.header--wrapper {
+  font-weight: 700;
+}
+
+.contents {
+  position: relative;
+  top: -96px;
+  padding: 0 1rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile--background {
+  width: 100%;
+}
+
+.profile--avatar {
+  display: block;
+  border-radius: 50%;
+  width: 9rem;
+  border: 10px solid white;
+}
+
+.profile--name {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.profile--status,
+.profile--contact {
+  font-size: 0.9rem;
+  color: #696969;
+  margin-bottom: 0.5rem;
+}
+
+.profile--place {
+  font-size: 0.95rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #696969;
+}
+
+.profile--place i {
+  font-size: 0.9rem;
+  margin-right: 0.1rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.btn button {
+  width: 48%;
+  border-radius: 20px;
+  border: 1px solid #e8e8e8;
+  height: 2.1rem;
+  font-weight: 700;
+}
+
+.btn button:first-child {
+  background-color: #0057ff;
+  color: white;
+  border: 1px solid #0057ff;
+}
+
+.nav {
+  padding: 0.3rem 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: #696969;
+  font-weight: 700;
+}
+
+.nav li {
+  padding: 9px 18px;
+
+  font-size: 0.9rem;
+  border-radius: 100px;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.nav--now {
+  background-color: #191919;
+  color: white;
+}
+
+.works {
+  list-style: none;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+.works li > a {
+  margin-bottom: 0.7rem;
+  display: flex;
+}
+
+/* common - works tag */
+
+.works--tags {
+  flex-wrap: wrap;
+}
+
+.works--tags li {
+  /* background-color: #263d62; */
+  color: #191919;
+  font-size: 0.9rem;
+  padding: 0.5rem; /*content.css*/
+  margin-bottom: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.works--tags {
+  display: flex;
+}
+
+.works--tags li {
+  background-color: white;
+  margin-right: 1rem;
+}
+
+.works--tags li:last-child {
+  margin-right: 0;
+}
+
+.works--title {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.works > li > a > img {
+  border-radius: 20px;
+  height: 7rem;
+  width: auto;
+  margin-right: 1rem;
+}
+
+/* info */
+
+.info {
+  margin-top: 1rem;
+  line-height: 1.5;
+  color: #696969;
+}
+
+.info > li > strong {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #191919;
+}
+
+.info > li {
+  margin-top: 2rem;
+}
+
+.info--contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info--contacts a i {
+  color: #696969;
+  margin-right: 1rem;
+  font-size: 2rem;
+}
