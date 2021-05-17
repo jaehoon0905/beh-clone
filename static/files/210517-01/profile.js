@@ -43,24 +43,27 @@ xhr[1].onreadystatechange = function () {
     json[1] = JSON.parse(xhr[1].responseText);
     json[1].forEach((elem) => {
       if (elem.contentId > 0) {
-        li = document.createElement("li");
-        a = document.createElement("a");
+        let li = document.createElement("li");
+        let a = document.createElement("a");
         a.href = "view.html?id=" + elem.contentId;
-        img = document.createElement("img");
+        let img = document.createElement("img");
         img.src = "files/" + elem.contentId + ".jpg";
         img.alt = elem.contentId;
-        div = document.createElement("div").innerHTML = elem.name;
+        let div = document.createElement("div");
+        div.innerHTML = elem.name;
         div.classList.add("works--detail");
-        tmp = document.createElement("span").innerHTML = elem.name;
+        let tmp = document.createElement("span");
+        tmp.innerHTML = elem.name;
         tmp.classList.add("works--title");
         div.appendChild(tmp);
-        tmp = document.createElement("ul").innerHTML = elem.name;
+        tmp = document.createElement("ul");
+        tmp.innerHTML = elem.name;
         tmp.classList.add("works--tags");
         elem.tags.forEach((el) => {
-          li = document.createElement("li").innerHTML = el;
-          tmp.appendChild(li);
+          let tagLi = document.createElement("li");
+          tagLi.innerHTML = el;
+          tmp.appendChild(tagLi);
         });
-
         div.appendChild(tmp);
         a.appendChild(img);
         a.appendChild(div);
