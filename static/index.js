@@ -10,12 +10,12 @@ xhr.onreadystatechange = function () {
     let data = JSON.parse(xhr.responseText);
 
     data.forEach((elem) => {
-      div = document.createElement(div);
+      let div = document.createElement(div);
       div.classList.add("ui-field-contain");
-      h3 = document.createElement(h3);
+      let h3 = document.createElement(h3);
       h3.innerHTML = elem.date;
       elem.files.forEach((el) => {
-        a = document.createElement(a);
+        let a = document.createElement(a);
         a.href = el.url;
         a.dataset.ajax = "false";
         a.classList.add(
