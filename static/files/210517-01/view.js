@@ -12,7 +12,6 @@ if (location.href.split("?").length > 1) {
   param = { id: 1 };
 }
 const xhr = new XMLHttpRequest();
-const json = [];
 
 xhr.open("GET", "song.json");
 xhr.send();
@@ -22,8 +21,8 @@ xhr.onreadystatechange = function () {
   if (xhr.readyState !== XMLHttpRequest.DONE) return;
 
   if (xhr.status === 200) {
-    json = JSON.parse(xhr.responseText);
-    json.forEach((elem) => {
+    const data = JSON.parse(xhr.responseText);
+    data.forEach((elem) => {
       if (elem.contentId === param.id) {
         document.title = elem.title;
         document.querySelector(".content--title").innerHTML = elem.title;

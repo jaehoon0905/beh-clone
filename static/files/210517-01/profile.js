@@ -50,7 +50,7 @@ xhr[1].onreadystatechange = function () {
         a.href = "view.html?id=" + elem.contentId;
         let img = document.createElement("div");
         img.classList.add("works--img");
-        img.style.backgroundImage = "url('files/" + elem.contentId + ".jpg');";
+        img.style.backgroundImage = "url('" + elem.contentId + "');";
         let div = document.createElement("div");
         div.classList.add("works--detail");
         let tmp = document.createElement("span");
