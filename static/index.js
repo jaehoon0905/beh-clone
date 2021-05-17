@@ -1,5 +1,5 @@
 const xhr = new XMLHttpRequest();
-const json = [];
+
 xhr.open("GET", "files.json");
 xhr.send();
 
@@ -7,9 +7,9 @@ xhr.onreadystatechange = function () {
   if (xhr.readyState !== XMLHttpRequest.DONE) return;
 
   if (xhr.status === 200) {
-    json = JSON.parse(xhr.responseText);
+    let data = JSON.parse(xhr.responseText);
 
-    json.forEach((elem) => {
+    data.forEach((elem) => {
       div = document.createElement(div);
       div.classList.add("ui-field-contain");
       h3 = document.createElement(h3);
