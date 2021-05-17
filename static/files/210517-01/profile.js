@@ -1,5 +1,7 @@
+let param;
+
 if (location.href.split("?").length > 1) {
-  const param = JSON.parse(
+  param = JSON.parse(
     '{"' +
       decodeURI(
         location.href.split("?")[1].replace(/&/g, '","').replace(/=/g, '":"')
@@ -7,7 +9,7 @@ if (location.href.split("?").length > 1) {
       '"}'
   );
 } else {
-  const param = { uId: 1 };
+  param = { uId: 1 };
 }
 
 const xhr = [new XMLHttpRequest(), new XMLHttpRequest()];
