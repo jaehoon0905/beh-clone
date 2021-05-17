@@ -4,13 +4,14 @@ xhr.open("GET", "files.json");
 xhr.send();
 
 xhr.onreadystatechange = function () {
-  // 서버 응답 완료 && 정상 응답
   if (xhr.readyState !== XMLHttpRequest.DONE) return;
 
   if (xhr.status === 200) {
     json = JSON.parse(xhr.responseText);
 
     json.forEach((elem) => {
+      div = document.createElement(div);
+      div.classList.add("ui-field-contain");
       h3 = document.createElement(h3);
       h3.innerHTML = elem.date;
       elem.files.forEach((el) => {
@@ -21,7 +22,9 @@ xhr.onreadystatechange = function () {
           "ui-btn ui-corner-all ui-btn-icon-left ui-icon-location"
         );
         a.innerHTML = el.title;
-        h3.appendChild(a);
+        div.appendChild(h3);
+        div.appendChild(a);
+        document.querySelector("div[data-role='content']").appendChild(div);
       });
     });
   } else {
