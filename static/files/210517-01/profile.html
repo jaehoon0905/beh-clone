@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/profile.css" />
+    <title>Music & Joy</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header--wrapper">
+        <i class="fas fa-bars"></i>
+        <img src="./img/logo.png" alt="Music & Joy" />
+      </div>
+      <div class="header--search"><i class="fas fa-search"></i></div>
+    </div>
+    <img src="./files/cover.jpg" alt="커버 사진" class="profile--background" />
+    <div class="contents">
+      <div class="profile">
+        <img
+          src="./files/profile.jpg"
+          alt="프로필 사진"
+          class="profile--avatar"
+        />
+        <span class="profile--name">King Bee</span>
+        <div class="profile--status">Producer</div>
+        <div class="profile--contact">NY Music Lab Studio</div>
+        <div class="profile--place">
+          <i class="fas fa-map-marker-alt"></i>
+          Seocho-gu, Seoul, Republic of Korea
+        </div>
+      </div>
+      <div class="btn">
+        <button onclick="alert('후원할 거면 현금으로 줘.')">후원하기</button>
+        <button onclick="alert('열심히 보내봐')">메시지</button>
+      </div>
+
+      <ul class="nav">
+        <li><a href="profile-info.html">정보</a></li>
+        <li class="nav--now">작업</li>
+        <li>평가</li>
+      </ul>
+      <ul class="works">
+        <li>
+          <a href="view.html">
+            <img src="./files/1.jpg" alt="1" />
+            <div class="works--detail">
+              <span class="works--title">섬</span>
+              <ul class="works--tags">
+                <li>인디</li>
+                <li>인디 팝</li>
+                <li>지니뮤직</li>
+                <li>국내</li>
+                <li>국내 인디</li>
+              </ul>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="view_2.html">
+            <img src="./files/2.jpg" alt="2" />
+            <div class="works--detail">
+              <span class="works--title">사랑해요</span>
+              <ul class="works--tags">
+                <li>옛지</li>
+                <li>Old Music</li>
+              </ul>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script src="profile.js"></script>
+  </body>
+</html>

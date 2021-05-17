@@ -1,0 +1,50 @@
+.content--2by1,
+.content--1by1 {
+  background-color: gray;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin-top: 1.3rem;
+}
+
+.content--2by1 {
+  width: 100%;
+}
+
+.content--1by1 {
+  width: 47%;
+}
+
+.content--1by1:nth-child(2n) {
+  margin-right: 1.3rem;
+}
+
+.content--title {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content--writer {
+  color: white;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.content--tags {
+  display: flex;
+}
+
+.content--tags li {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 30px;
+  margin-right: 1rem;
+}
+
+.content--tags li:last-child {
+  margin-right: 0;
+}

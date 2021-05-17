@@ -1,0 +1,32 @@
+[
+  {
+    "contentId": 0,
+    "title": "곡명",
+    "writer": "곡자",
+    "lyric": "가사(줄바꿈없이, 줄바꿈은 br Tag로 대체해야 합니다)",
+    "credit": "크레딧",
+    "tags": ["태그를 배열로 삽입"],
+    "musicSrc": "음악 상대경로, 확장자 포함",
+    "musicArt": "앨범아트 상대경로, 확장자 포함"
+  },
+  {
+    "contentId": 1,
+    "title": "섬",
+    "writer": "민수",
+    "lyric": "섬으로 가요 둘이<br>    바다로 둘러 쌓인<br>    우리의 시간이<br>    멈출 것 같은 곳으로 가요<br>    별 거 없어도 돼요<br>    준비하지 말구요<br>    아무 걱정 없는 상태가 되면<br>    좋겠어요<br>    멀리가도 돼요<br>    무섭지 않아요<br>    손 놓지 않는다고 약속만 해줘요<br>    믿고 싶어요 나<br>    그대의 모든 말을<br>    작은 말도 내게는<br>    크게 다가와요<br>    같이 날아 갈래요<br>    세상이 작아 보이게<br>    그대와 함께 숨쉬는 곳으로<br>    가고 싶어요<br>    어디든지 좋아요<br>    매일 볼 수 있다면<br>    이곳에선 너무 바빠<br>    그러기 힘들긴 해요<br>    손 잡고 뛰어 노는데<br>    뒤돌아 보지 않잖아요<br>    나를 떠나지 않을 사람<br>    그대잖아요<br>    내가 그대 앞에 있어도<br>    불안한 마음 전혀 없어요<br>    내 뒤에서 안아줄 거란 걸<br>    알고 있어요<br>    멀리가도 돼요<br>    무섭지 않아요<br>    손 놓지 않는다고 약속만 해줘요<br>    믿고 싶어요 나<br>    그대의 모든 말을<br>    작은 말도 내게는<br>    크게 다가와요<br>    섬으로 가요 둘이<br>    바다로 둘러 쌓인<br>    우리의 시간이<br>    멈출 것 같은 곳으로 가요<br>    별거 없어도 돼요<br>    준비 하지 말구요<br>    아무도 없어도<br>    우리 둘은 지겹지 않아요<br>    섬으로 가요 둘이<br>    바다로 둘러 쌓인<br>    우리의 시간이<br>    멈출 것 같은 곳으로 가요<br>    별거 없어도 돼요<br>    준비 하지 말구요<br>    아무 걱정 없는 상태가 되면<br>    좋겠어요<br>                ",
+    "credit": "민수(Minsu) ‘섬’ <br>    \"우리의 시간이 멈출 것 같은 곳으로 가요\" <br>    <br>    *Beams는 시작하는 뮤지션들이 빛이 되어 가는 과정을 함께하고 지원하는 CASPER의 앨범 제작 프로젝트 시리즈입니다. 기존의 단순 앨범 투자/지원 형태를 넘어, 2개 이상의 앨범 제작/지원, 최소 6개월간 전문인력의 컨설팅과 매직스트로베리 주식회사의 인프라를 통한 유통과 홍보, 참여한 아티스트가 최종적으로 소유권을 취득하는 계약을 통해 젊고 유망한 아티스트의 건강한 첫걸음과 그들이 훌륭히 성장하는 과정의 새로운 대안이 되고자 합니다.    <ul>        <li><strong>Produced</strong>민수</li>        <li><strong>Composed</strong>민수</li>        <li><strong>Written</strong>민수</li>        <li><strong>Arranged</strong>민수</li>        <li></li>        <li><strong>Piano</strong>민수</li>        <li><strong>Guitar</strong>이은규</li>        <li><strong>Bass</strong>이한결</li>        <li><strong>Guitar Recorded</strong>민수 @ Minsu Studio</li>        <li><strong>Bass Recorded</strong>Humbert @ EastMood Studio</li>        <li><strong>Vocal Recorded</strong>신재민 @ Philo's Planet</li>        <li><strong>Song Mixed</strong>김지엽</li>        <li><strong>Mastered</strong>권남우 @821 Sound Mastering</li>        <li></li>        <li><strong>Executive</strong>MAGIC STRAWBERRY Inc. / CASPER</li>        <li><strong>Executive Producer</strong>Soda</li>        <li><strong>Executive Supervisor</strong>신동익</li>        <li><strong>‘Beams’ Project Manager</strong>홍달님, 정준구, 김은마로</li>        <li></li>        <li><strong>M/V Directed</strong>김인태 @MSB</li>        <li><strong>Artwork</strong>임다솔</li>        <li><strong>Photo</strong>홍태식 @MSB</li>        <li></li>        <li><strong>Published</strong>GENIE MUSIC</li>        </ul>",
+    "tags": ["인디", "인디 팝", "지니뮤직", "국내", "국내 인디"],
+    "musicSrc": "audio/1.aac",
+    "musicArt": "files/1.jpg"
+  },
+  {
+    "contentId": 2,
+    "title": "사랑해요",
+    "writer": "명환",
+    "lyric": "저 멀리<br>    너의 모습이 보여<br>    <br>    어렴풋이<br>    기억하는 노란 머리띠 <br>    <br>    우연히 시선에 걸쳐진<br>    너를 어떻게 놓칠수있겠어<br>    <br>    이대로 우리<br>    영원한 시간에 갇혀있고<br>    우린 서로의 영원한 약속을 나눴지<br>    <br>    사랑해요 그댈 사랑해요 천번은 외친말<br>    내 마음담아 이렇게 불러요<br>    <br>    나이제 그대의<br>    사랑 받을수없지만<br>    이렇게 안부를 전해요<br>    <br>    너가 새로 만난 그때 그사람<br>    정말 널 사랑하나봐<br>    조금은 안심을 하는 자신을 탓하며<br>    이제 널 보낼수있어 <br>    <br>    사랑해요 그댈 사랑해요 천번은 외친말<br>    내 마음담아 이렇게 불러요<br>    <br>    나이제 그대의<br>    사랑 받을수없지만<br>    이렇게 안부를 전해요<br>    <br>    미안해요 내가 미안해요 이렇게 보내서<br>    이런 내맘 더 잘 알잖아요<br>    <br>    그댈 잃은후에 매일<br>    후회속에 사는 날<br>    이제는 생각하지 마요<br>",
+    "credit": "명환(Samyang) ‘사랑해요’",
+    "tags": ["옛날", "지림"],
+    "musicSrc": "audio/2.mp3",
+    "musicArt": "files/2.jpg"
+  }
+]
