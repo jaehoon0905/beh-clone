@@ -1,5 +1,27 @@
 [
   {
+    "userId": 0,
+    "name": "이름",
+    "postion": "직책",
+    "status": "현 상태",
+    "place": "주소",
+    "info": "설명",
+    "contacts": [
+      {
+        "icon": "fab fa-instagram-square",
+        "url": "https://instagram.com/kingbee_yang"
+      },
+      {
+        "icon": "fas fa-envelope-open-text",
+        "url": "mailto:admin@musicnjoy.net"
+      },
+      {
+        "icon": "fas fa-map-marked-alt",
+        "url": "http://naver.me/FiLLFoa5"
+      }
+    ]
+  },
+  {
     "userId": 1,
     "name": "King Bee",
     "postion": "Producer",
