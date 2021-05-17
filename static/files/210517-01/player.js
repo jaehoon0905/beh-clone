@@ -1,5 +1,7 @@
+var audioElement;
+
 $(document).ready(function () {
-  var audioElement = document.createElement("audio");
+  audioElement = document.createElement("audio");
   audioElement.setAttribute("src", $(".active-song").attr("data-src"));
 
   var tl = new TimelineMax();
