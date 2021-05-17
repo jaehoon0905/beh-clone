@@ -26,7 +26,7 @@ xhr[0].onreadystatechange = function () {
   if (xhr[0].readyState !== XMLHttpRequest.DONE) return;
 
   if (xhr[0].status === 200) {
-    json[0] = JSON.parse(xhr[0].responseText[param.uId]);
+    json[0] = JSON.parse(xhr[0].responseText)[param.uId];
 
     document.querySelector(".profile--name").innerHTML = json[0].name;
     document.querySelector(".profile--status").innerHTML = json[0].postion;
@@ -48,18 +48,16 @@ xhr[1].onreadystatechange = function () {
         let li = document.createElement("li");
         let a = document.createElement("a");
         a.href = "view.html?id=" + elem.contentId;
-        let img = document.createElement("img");
-        img.src = "files/" + elem.contentId + ".jpg";
-        img.alt = elem.contentId;
+        let img = document.createElement("div");
+        img.classList.add("works--img");
+        img.style.backgroundImage = "url('files/" + elem.contentId + ".jpg');";
         let div = document.createElement("div");
-        div.innerHTML = elem.name;
         div.classList.add("works--detail");
         let tmp = document.createElement("span");
-        tmp.innerHTML = elem.name;
+        tmp.innerHTML = elem.title;
         tmp.classList.add("works--title");
         div.appendChild(tmp);
         tmp = document.createElement("ul");
-        tmp.innerHTML = elem.name;
         tmp.classList.add("works--tags");
         elem.tags.forEach((el) => {
           let tagLi = document.createElement("li");

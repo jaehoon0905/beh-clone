@@ -38,6 +38,13 @@ body {
   font-weight: 700;
 }
 
+.header--title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Noto Sans KR";
+  margin-left: 0.6rem;
+}
+
 .contents {
   position: relative;
   top: -96px;
@@ -56,9 +63,12 @@ body {
 
 .profile--avatar {
   display: block;
-  border-radius: 50%;
   width: 9rem;
   border: 10px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -khtml-border-radius: 50%;
 }
 
 .profile--name {
@@ -146,10 +156,6 @@ body {
 
 /* common - works tag */
 
-.works--tags {
-  flex-wrap: wrap;
-}
-
 .works--tags li {
   /* background-color: #263d62; */
   color: #191919;
@@ -161,7 +167,9 @@ body {
 }
 
 .works--tags {
-  display: flex;
+  white-space: nowrap;
+  overflow-x: scroll;
+  width: 11rem;
 }
 
 .works--tags li {
@@ -180,11 +188,13 @@ body {
   margin-bottom: 1rem;
 }
 
-.works > li > a > img {
+.works--img {
   border-radius: 20px;
-  height: 7rem;
-  width: auto;
   margin-right: 1rem;
+  height: 7rem;
+  width: 7rem;
+  background-size: cover;
+  background-position: center;
 }
 
 /* info */
