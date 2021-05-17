@@ -18,9 +18,15 @@ xhr.onreadystatechange = function () {
         let a = document.createElement("a");
         a.href = el.url;
         a.dataset.ajax = "false";
-        a.classList.add(
-          "ui-btn ui-corner-all ui-btn-icon-left ui-icon-location"
-        );
+        let classListOfA = [
+          "ui-btn",
+          "ui-corner-all",
+          "ui-btn-icon-left",
+          "ui-icon-location",
+        ];
+        classListOfA.forEach((ele) => {
+          a.classList.add(ele);
+        });
         a.innerHTML = el.title;
         div.appendChild(h3);
         div.appendChild(a);
