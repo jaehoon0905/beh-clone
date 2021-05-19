@@ -172,6 +172,10 @@ body {
 
 /* For Javascript */
 
+.js-nav-down {
+  bottom: -2%;
+}
+
 .js-nav-up {
-  bottom: -120px;
+  bottom: -135px;
 }

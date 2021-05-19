@@ -23,7 +23,6 @@ xhr.onreadystatechange = function () {
     const data = JSON.parse(xhr.responseText);
     data.forEach((elem) => {
       if (elem.contentId === parseInt(param.id)) {
-        console.warn(elem.title);
         document.title = elem.title;
         document.querySelector(".content--title").innerHTML = elem.title;
         document.querySelector(".content--writer").innerHTML = elem.writer;
