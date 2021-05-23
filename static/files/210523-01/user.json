@@ -1,0 +1,46 @@
+[
+  {
+    "userId": 0,
+    "name": "이름",
+    "postion": "직책",
+    "status": "현 상태",
+    "place": "주소",
+    "info": "설명",
+    "contacts": [
+      {
+        "icon": "fab fa-instagram-square",
+        "url": "https://instagram.com/kingbee_yang"
+      },
+      {
+        "icon": "fas fa-envelope-open-text",
+        "url": "mailto:admin@musicnjoy.net"
+      },
+      {
+        "icon": "fas fa-map-marked-alt",
+        "url": "http://naver.me/FiLLFoa5"
+      }
+    ]
+  },
+  {
+    "userId": 1,
+    "name": "King Bee",
+    "postion": "Producer",
+    "status": "NY Music Lab Studio",
+    "place": "Seocho-gu, Seoul, Republic of Korea",
+    "info": "Melanie Sato opens the line of communication between clients, customers, and businesses to get projects done. With over 20 years in both public and private sectors, Melanie has experience in management consultation, team building, professional development, strategic implementation, and company collaboration. Melanie has managed projects at TechPoint International, Cyberry, and Induster, where she was a finalist for the PMI® Project of the Year. Melanie holds an MBA from Dartmouth University and a current PMP® certification.",
+    "contacts": [
+      {
+        "icon": "fab fa-instagram-square",
+        "url": "https://instagram.com/kingbee_yang"
+      },
+      {
+        "icon": "fas fa-envelope-open-text",
+        "url": "mailto:admin@musicnjoy.net"
+      },
+      {
+        "icon": "fas fa-map-marked-alt",
+        "url": "http://naver.me/FiLLFoa5"
+      }
+    ]
+  }
+]
